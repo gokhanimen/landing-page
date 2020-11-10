@@ -1,0 +1,77 @@
+/* Text */
+
+.text-center {
+    text-align: center;
+}
+
+.heading-small {
+    font-size: 1.25rem;
+}
+
+.heading-medium {
+    font-size: 1.50rem;
+}
+
+.heading-big {
+    font-size: 1.75rem;
+}
+
+/* Colors */
+
+.bg-dark-blue {
+    background: #062e51;
+}
+
+.bg-light-blue {
+    background: #336ea2;
+}
+
+.white {
+    color: #ffffff;
+}
+
+/* Buttons */
+
+.btn{
+    margin-top: 1.25rem;
+    padding: 0.8rem 3rem;
+    border-radius: 7px;
+    letter-spacing: 0.7px;
+    user-select: none;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.btn-primary {
+    background:#336ea2;
+    color: white;
+}
+
+.btn-primary:hover {
+    color: #336ea2;
+    background: #ffffff;
+    border: 0.5px solid #336ea2;
+    transition: all .3s;
+}
+
+.btn-block {
+    width: 100½;
+    text-align: center;
+}
+
+.btn-dark {
+    background: #333333;
+}
+
+.btn-dark:hover {
+    color: #333333;
+    background: #ffffff;
+    border: 0.5px solid #333333;
+}
+
+/* container */
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
